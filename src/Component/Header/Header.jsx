@@ -5,7 +5,7 @@ const Header = () => {
   const [modal , setModal] = useState(false)
   const [currentText, setCurrentText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
-  const writeNameText = "MD RABIYUL ISLAM ";
+  const writeNameText = "MD SHUJON";
   useEffect(() => {
     if (currentIndex < writeNameText.length) {
       const timeout = setTimeout(() => {
